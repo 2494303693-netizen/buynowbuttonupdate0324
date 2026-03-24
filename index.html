@@ -1,0 +1,185 @@
+{\rtf1\ansi\ansicpg936\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww29200\viewh16000\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="zh-CN">\
+<head>\
+<meta charset="UTF-8">\
+<meta name="viewport" content="width=device-width, initial-scale=1.0">\
+<title>\uc0\u36141 \u20080 \u28192 \u36947  Hover \u20132 \u20114 \u26041 \u26696 </title>\
+<style>\
+body\{font-family:Arial;background:#f5f5f5;padding:40px\}\
+\
+.wrapper\{\
+  display:flex;\
+  gap:60px;\
+  align-items:flex-start;\
+\}\
+\
+.block\{\
+  display:flex;\
+  flex-direction:column;\
+  align-items:flex-start;\
+\}\
+\
+.container\{position:relative\}\
+\
+.btn\{\
+  background:#FFD84D;\
+  padding:12px 20px;\
+  border-radius:24px;\
+  cursor:pointer;\
+  font-weight:bold;\
+\}\
+\
+.modal\{\
+  position:absolute;\
+  top:48px;\
+  left:0;\
+  background:#fff;\
+  border-radius:16px;\
+  padding:16px;\
+  width:280px;\
+  box-shadow:0 8px 24px rgba(0,0,0,0.15);\
+  opacity:0;\
+  transform:translateY(8px);\
+  pointer-events:none;\
+  transition:all 0.2s ease;\
+  z-index:10;\
+\}\
+\
+.container:hover .modal\{\
+  opacity:1;\
+  transform:translateY(0);\
+  pointer-events:auto;\
+\}\
+\
+.item\{\
+  padding:12px;\
+  border-radius:10px;\
+  margin-bottom:8px;\
+  cursor:pointer;\
+\}\
+\
+.primary\{\
+  background:#FFF7CC;\
+  border:1px solid #FFE58F;\
+\}\
+\
+.secondary\{\
+  background:#fff;\
+\}\
+\
+.secondary:hover\{\
+  background:#f5f5f5;\
+\}\
+\
+.tag\{\
+  font-size:10px;\
+  background:#1677FF;\
+  color:#fff;\
+  padding:2px 6px;\
+  border-radius:6px;\
+  margin-left:6px;\
+\}\
+\
+.desc\{\
+  font-size:12px;\
+  color:#666;\
+  margin-top:4px;\
+\}\
+\
+.divider\{\
+  height:1px;\
+  background:#eee;\
+  margin:10px 0;\
+\}\
+\
+.link\{\
+  color:#1677FF;\
+  font-size:13px;\
+  cursor:pointer;\
+  margin-top:6px;\
+\}\
+\
+.sub\{\
+  display:none;\
+  margin-top:8px;\
+\}\
+\
+/* \uc0\u20851 \u38190 \u20248 \u21270 \u65306 \u35753 \u35302 \u21457 \u21306 +\u23376 \u33756 \u21333 \u24418 \u25104 \u36830 \u32493 hover\u21306 \u22495  */\
+.modal:hover .sub,\
+.link:hover + .sub\{\
+  display:block;\
+\}\
+\
+h3\{\
+  margin-bottom:10px;\
+  font-size:14px;\
+\}\
+\
+</style>\
+</head>\
+<body>\
+\
+<div class="wrapper">\
+\
+  <div class="block">\
+    <h3>\uc0\u26041 \u26696 \u19968 \u65306 \u20449 \u24687 \u24378 \u21270 </h3>\
+    <div class="container">\
+      <div class="btn">\uc0\u31435 \u21363 \u36141 \u20080 </div>\
+      <div class="modal">\
+        <div class="item primary">\
+          \uc0\u23448 \u26041 \u21830 \u22478 \
+          <div class="desc">\uc0\u19979 \u21333 \u36820 \u31215 \u20998  \'b7 \u20817 \u22909 \u31036 </div>\
+        </div>\
+        <div class="divider"></div>\
+        <div class="item secondary">\uc0\u22825 \u29483 \u23448 \u26041 \u26071 \u33328 \u24215 </div>\
+        <div class="item secondary">\uc0\u20140 \u19996 \u23448 \u26041 \u26071 \u33328 \u24215 </div>\
+      </div>\
+    </div>\
+  </div>\
+\
+  <div class="block">\
+    <h3>\uc0\u26041 \u26696 \u20108 \u65306 \u26631 \u31614 \u24378 \u21270 </h3>\
+    <div class="container">\
+      <div class="btn">\uc0\u31435 \u21363 \u36141 \u20080 </div>\
+      <div class="modal">\
+        <div class="item primary">\
+          \uc0\u23448 \u26041 \u21830 \u22478  <span class="tag">\u25512 \u33616 </span>\
+          <div class="desc">\uc0\u23448 \u26041 \u19987 \u23646 \u31119 \u21033 </div>\
+        </div>\
+        <div class="divider"></div>\
+        <div class="item secondary">\uc0\u22825 \u29483 \u23448 \u26041 \u26071 \u33328 \u24215 </div>\
+        <div class="item secondary">\uc0\u20140 \u19996 \u23448 \u26041 \u26071 \u33328 \u24215 </div>\
+      </div>\
+    </div>\
+  </div>\
+\
+  <div class="block">\
+    <h3>\uc0\u26041 \u26696 \u19977 \u65306 \u36335 \u24452 \u20998 \u27969 \u65288 \u25512 \u33616 \u65289 </h3>\
+    <div class="container">\
+      <div class="btn">\uc0\u31435 \u21363 \u36141 \u20080 </div>\
+      <div class="modal">\
+        <div class="item primary">\
+          \uc0\u23448 \u26041 \u21830 \u22478  <span class="tag">\u23448 \u26041 \u25512 \u33616 </span>\
+          <div class="desc">\uc0\u19987 \u23646 \u31119 \u21033  \'b7 \u20248 \u20808 \u21457 \u36135 </div>\
+        </div>\
+        <div class="link">\uc0\u20854 \u20182 \u36141 \u20080 \u28192 \u36947  ></div>\
+        <div class="sub">\
+          <div class="item secondary">\uc0\u22825 \u29483 \u23448 \u26041 \u26071 \u33328 \u24215 </div>\
+          <div class="item secondary">\uc0\u20140 \u19996 \u23448 \u26041 \u26071 \u33328 \u24215 </div>\
+        </div>\
+      </div>\
+    </div>\
+  </div>\
+\
+</div>\
+\
+</body>\
+</html>\
+}
